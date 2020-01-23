@@ -1,5 +1,6 @@
+# Python & Stats Overview
 ###### 01/22/2020
-# Python
+## Python
 
 ### Data Structures
   * list 
@@ -42,7 +43,7 @@ https://docs.python.org/3/library/functions.html.
 22. type()
 
 
-# Probability/Statistics
+## Probability/Statistics
 
 1. measures of central tendency
 2. error metrics
