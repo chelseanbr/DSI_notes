@@ -1,6 +1,6 @@
 # Python
 
-###### Data Structures
+### Data Structures
   * list 
   * dictionary 
   * set
@@ -12,7 +12,7 @@ https://docs.python.org/3/tutorial/datastructures.html
 **Python Math Module
 https://docs.python.org/3/library/math.html**
 
-###### Built-in Functions
+### Built-in Functions
 
 Python 3 Built-in Functions
 https://docs.python.org/3/library/functions.html.
