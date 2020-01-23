@@ -1,10 +1,10 @@
 # Python
-You will write functions that demonstrate and extrapolate specific facets of probability/stats and/or Python. 
+You will write functions that _demonstrate and extrapolate specific facets of probability/stats and/or Python._
 These functions will build on each other. We expect you to be familiar with common Python built-ins, including: 
 abs(), bool(), chr(), dict(), enumerate(), float(), input(), int(), len(), list(), max(), min(), ord(), 
 print(), range(), round(), set(), sorted(), str(), sum(), tuple(), and type(). 
 We expect you to understand and be able to iterate through, manipulate, 
-and utilize functions related to these Python data structures: list, dictionary, set, and tuple.
+and utilize functions related to these **Python data structures: _list, dictionary, set, and tuple.**
 
 See the Python 3 Built-in Functions
 https://docs.python.org/3/library/functions.html.
@@ -13,8 +13,8 @@ See the Python 3 Data Structures
 https://docs.python.org/3/tutorial/datastructures.html
 
 We expect you to be familiar with function declaration, syntax and usage. 
-We expect you to know how to import python module functions and utilize them. 
-The only imported module with which we expect you to have some experience is the math module: 
+We expect you to know how to **import python module functions and utilize them.** 
+The only imported module with which we expect you to have some experience is the **math module: 
 https://docs.python.org/3/library/math.html 
 
 1. abs()
@@ -53,15 +53,15 @@ Your TAO may ask you to interpret plots, such as histograms, boxplots, and other
 2. error metrics
 3. least squares regression
 4. combinations & permutations
-⋅⋅* combinations
-⋅⋅* permutations
+  * combinations
+  * permutations
 5. conditional probability
-⋅⋅* law of total probability 
-⋅⋅* Bayes theorem
+  * law of total probability 
+  * Bayes theorem
 6. distributions
-⋅⋅* Binomial
-⋅⋅* Poisson
+  * Binomial
+  * Poisson
 7. plots
-⋅⋅* histograms
-⋅⋅* boxplots
-⋅⋅* distribution visualizations
+  * histograms
+  * boxplots
+  * distribution visualizations
