@@ -1,2 +1,2 @@
 # Prep Notes for Galvanize DSI Bootcamp
-[Python & Stats Overview](/python_and_stats_012220.md)
+1. [Python & Stats Overview](/python_and_stats_overview.md)
