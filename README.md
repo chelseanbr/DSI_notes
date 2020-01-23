@@ -1,1 +1,1 @@
-# DSI_prep_notes
+# Prep Notes for Galvanize DSI Bootcamp
