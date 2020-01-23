@@ -8,6 +8,7 @@ and utilize functions related to these Python data structures: list, dictionary,
 
 See the Python 3 Built-in Functions
 https://docs.python.org/3/library/functions.html.
+
 See the Python 3 Data Structures
 https://docs.python.org/3/tutorial/datastructures.html
 
@@ -16,13 +17,11 @@ We expect you to know how to import python module functions and utilize them.
 The only imported module with which we expect you to have some experience is the math module: 
 https://docs.python.org/3/library/math.html 
 
-```python
 1. abs()
 2. bool()
 3. chr()
 4. dict()
 5. enumerate()
-..* [notes]
 6. float()
 7. input()
 8. int()
@@ -40,7 +39,6 @@ https://docs.python.org/3/library/math.html
 20. sum()
 21. tuple()
 22. type()
-```
 
 # Probability/Statistics
 We expect that you will understand fundamental concepts in statistics. 
@@ -50,3 +48,20 @@ including those related to combinations and permutations. You may be asked to ap
 including the law of total probability and Bayes theorem.
 You will have a basic working knowledge of the Binomial and Poisson distributions. 
 Your TAO may ask you to interpret plots, such as histograms, boxplots, and other distribution visualizations.
+
+1. measures of central tendency
+2. error metrics
+3. least squares regression
+4. combinations & permutations
+⋅⋅* combinations
+⋅⋅* permutations
+5. conditional probability
+⋅⋅* law of total probability 
+⋅⋅* Bayes theorem
+6. distributions
+⋅⋅* Binomial
+⋅⋅* Poisson
+7. plots
+⋅⋅* histograms
+⋅⋅* boxplots
+⋅⋅* distribution visualizations
