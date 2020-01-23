@@ -1,5 +1,4 @@
 # Python & Stats Overview
-###### 01/22/2020
 ## Python
 
 ### Data Structures
