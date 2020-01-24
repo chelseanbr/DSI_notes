@@ -10,7 +10,7 @@
 
 ### Data Structures
 
-Python 3 Data Structures
+**Python 3 Data Structures**
 https://docs.python.org/3/tutorial/datastructures.html
 
   * list 
@@ -20,8 +20,8 @@ https://docs.python.org/3/tutorial/datastructures.html
 
 ### Built-in Functions
 
-Python 3 Built-in Functions
-https://docs.python.org/3/library/functions.html.
+**Python 3 Built-in Functions**
+https://docs.python.org/3/library/functions.html
 
 1. abs()
 2. bool()
