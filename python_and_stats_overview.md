@@ -50,7 +50,7 @@ https://docs.python.org/3/library/functions.html.
     * "x-bar" - **sample** mean
     * "x-bar" _capitalized_ - **sample** mean, _where X is a random variable_
     * population vs. sample
-      * 
+      * jkhj
 2. error metrics
 3. least squares regression
 4. combinations & permutations
