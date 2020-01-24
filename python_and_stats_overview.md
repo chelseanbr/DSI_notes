@@ -90,7 +90,7 @@ https://docs.python.org/3/library/functions.html.
       ```python
       # Option 1: scipy function
       from scipy import stats
-      # Will return the mode, and it's frequency, each in a numpy array
+      # Will return the mode, and its frequency, each in a numpy array
       stats.mode(lst)
       ```
 2. error metrics
