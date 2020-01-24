@@ -55,9 +55,10 @@ https://docs.python.org/3/library/functions.html.
    
     * calculating with python:
       ```python
+      # 1: Create simple function
       def mean(lst):
           return sum(lst) / len(lst)
-      # OR
+      # 2: OR use numpy function 
       import numpy as np
       np.mean(lst)
       ```
