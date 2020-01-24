@@ -1,4 +1,8 @@
 # Python & Stats Overview
+1. [Python](## Python)
+2. [Probability/Statistics](## Probability/Statistics)
+3. [Other Questions/Notes](## Other Questions/Notes)
+
 ## Python
 
 ### Data Structures
@@ -108,3 +112,6 @@ https://docs.python.org/3/library/functions.html.
   * histograms
   * boxplots
   * distribution visualizations
+  
+## Other Questions/Notes
+[Top of Page](# Python & Stats Overview)
