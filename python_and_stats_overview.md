@@ -50,7 +50,17 @@ https://docs.python.org/3/library/functions.html.
     * "x-bar" - **sample** mean
     * "x-bar" _capitalized_ - **sample** mean, _where X is a random variable_
     * population vs. sample
-      * jkhj
+      * population - **all** of the possible data points or observations from a set of data
+      * sample - does **not** represent every possible observation
+   
+    * calculating with python:
+      ```python
+      def mean(lst):
+          return sum(lst) / len(lst)
+      # OR
+      import numpy as np
+      np.mean(lst)
+      ```
 2. error metrics
 3. least squares regression
 4. combinations & permutations
