@@ -1,10 +1,10 @@
 # Python & Stats Overview
 1. [Python](#Python)
   * [Data Structures](#Data-Structures)
-  * [Built-in Functions](#Builtin-Functions)
+  * [Built-in Functions](#Built-in-Functions)
   * [Python Math Module](#Python-Math-Module)
 2. [Probability/Statistics](#ProbabilityStatistics)
-3. [Other Questions/Notes](#Other-QuestionsNotes)
+3. [Other Notes](#Other-Notes)
 
 ## Python
 
@@ -116,7 +116,8 @@ https://docs.python.org/3/library/math.html
   * boxplots
   * distribution visualizations
   
-## Other Questions/Notes
-  * Bernoulli trial
+## Other Notes
+  * Bernoulli trials
+  * sigmoid function
 
 [Top of Page](#Python--Stats-Overview)
