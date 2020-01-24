@@ -14,10 +14,10 @@
 
 https://docs.python.org/3/tutorial/datastructures.html
 
-  * list 
-  * dictionary 
-  * set
-  * tuple
+  1. list 
+  2. dictionary 
+  3. set
+  4. tuple
 
 ### Built-in Functions
 
@@ -59,7 +59,6 @@ https://docs.python.org/3/library/math.html
     * population vs. sample
       * population - **all** of the possible data points or observations from a set of data
       * sample - does **not** represent every possible observation
-   
     * calculating with python:
       ```python
       # Option 1: Create simple function
