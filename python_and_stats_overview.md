@@ -1,21 +1,22 @@
 # Python & Stats Overview
 1. [Python](#Python)
+  * [Data Structures](#Data-Structures)
+  * [Built-in Functions](#Builtin-Functions)
+  * [Python Math Module](#Python-Math-Module)
 2. [Probability/Statistics](#ProbabilityStatistics)
 3. [Other Questions/Notes](#Other-QuestionsNotes)
 
 ## Python
 
 ### Data Structures
-  * list 
-  * dictionary 
-  * set
-  * tuple
 
 Python 3 Data Structures
 https://docs.python.org/3/tutorial/datastructures.html
 
-**Python Math Module
-https://docs.python.org/3/library/math.html**
+  * list 
+  * dictionary 
+  * set
+  * tuple
 
 ### Built-in Functions
 
@@ -45,6 +46,8 @@ https://docs.python.org/3/library/functions.html.
 21. tuple()
 22. type()
 
+### Python Math Module
+https://docs.python.org/3/library/math.html
 
 ## Probability/Statistics
 
@@ -114,4 +117,6 @@ https://docs.python.org/3/library/functions.html.
   * distribution visualizations
   
 ## Other Questions/Notes
+  * Bernoulli trial
+
 [Top of Page](#Python--Stats-Overview)
