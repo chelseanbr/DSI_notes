@@ -1,5 +1,5 @@
-# Python & Stats Overview
-1. [Python](## Python)
+[Python]# Python & Stats Overview
+1. [Python](#Python)
 2. [Probability/Statistics](## Probability/Statistics)
 3. [Other Questions/Notes](## Other Questions/Notes)
 
