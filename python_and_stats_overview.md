@@ -67,6 +67,7 @@ https://docs.python.org/3/library/functions.html.
     * notations: **med(A)** or **lower-case x _with tilde over top_**
     * calculating with python:
       ```python
+      # Option 1: Simple function
       def median(lst):
           import numpy as np
           length = len(lst)
@@ -80,7 +81,11 @@ https://docs.python.org/3/library/functions.html.
               idx1 = int(length / 2 - 1)
               idx2 = idx1 + 1
               return np.mean([lst[idx1], lst[idx2]])
+      # Option 2: Numpy function
+      import numpy as np
+      np.median(lst)
       ```    
+  * mode
 2. error metrics
 3. least squares regression
 4. combinations & permutations
