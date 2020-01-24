@@ -1,7 +1,7 @@
-[Python]# Python & Stats Overview
+# Python & Stats Overview
 1. [Python](#Python)
-2. [Probability/Statistics](## Probability/Statistics)
-3. [Other Questions/Notes](## Other Questions/Notes)
+2. [Probability/Statistics](#Probability/Statistics)
+3. [Other Questions/Notes](#Other-Questions/Notes)
 
 ## Python
 
@@ -114,4 +114,4 @@ https://docs.python.org/3/library/functions.html.
   * distribution visualizations
   
 ## Other Questions/Notes
-[Top of Page](# Python & Stats Overview)
+[Top of Page](#Python-&-Stats-Overview)
