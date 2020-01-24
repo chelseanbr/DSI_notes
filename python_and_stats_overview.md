@@ -45,7 +45,7 @@ https://docs.python.org/3/library/functions.html.
 ## Probability/Statistics
 
 1. measures of central tendency
-  * mean
+  * **mean** - average
     * μ - **population** mean
     * "x-bar" - **sample** mean
     * "x-bar" _capitalized_ - **sample** mean, _where X is a random variable_
@@ -62,8 +62,7 @@ https://docs.python.org/3/library/functions.html.
       import numpy as np
       np.mean(lst)
       ```
-  * median
-    * middle value
+  * **median** - middle value
     * notations: **med(A)** or **lower-case x _with tilde over top_**
     * calculating with python:
       ```python
@@ -85,7 +84,14 @@ https://docs.python.org/3/library/functions.html.
       import numpy as np
       np.median(lst)
       ```    
-  * mode
+  * **mode** - item with greatest frequency
+    * notations: **mode(A)** or **Mo**
+    * calculating with python:
+      ```python
+      # Option 1: scipy function
+      from scipy import stats
+      stats.mode(lst)
+      ```
 2. error metrics
 3. least squares regression
 4. combinations & permutations
