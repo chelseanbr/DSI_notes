@@ -114,4 +114,4 @@ https://docs.python.org/3/library/functions.html.
   * distribution visualizations
   
 ## Other Questions/Notes
-[Top of Page](#Python-Stats-Overview)
+[Top of Page](#Python--Stats-Overview)
