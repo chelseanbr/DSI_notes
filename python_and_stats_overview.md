@@ -62,6 +62,25 @@ https://docs.python.org/3/library/functions.html.
       import numpy as np
       np.mean(lst)
       ```
+  * median
+    * middle value
+    * notations: **med(A)** or **lower-case x _with tilde over top_**
+    * calculating with python:
+      ```python
+      def median(lst):
+          import numpy as np
+          length = len(lst)
+          lst.sort()
+          # Odd number of items in list
+          if length % 2 != 0:
+              idx = (length / 2 + 0.5) - 1
+              return lst[int(idx)]
+          # Even number of items in list
+          else:
+              idx1 = int(length / 2 - 1)
+              idx2 = idx1 + 1
+              return np.mean([lst[idx1], lst[idx2]])
+      ```    
 2. error metrics
 3. least squares regression
 4. combinations & permutations
