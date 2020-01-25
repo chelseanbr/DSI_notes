@@ -118,12 +118,29 @@ https://docs.python.org/3/library/math.html
   * boxplots
   * distribution visualizations
 8. five number summary
-  1. The minumum
-  2. Q1 - the first quartile
-  3. The median
-  4. Q3 - the third quartile
-  5. The maximum
-  * notation: _(min, Q1, median, Q3, max)_
+  * The minumum
+  * Q_1 - the first quartile
+  * The median
+  * Q_3 - the third quartile
+  * The maximum
+  * notation: _(min, Q_1, median, Q_3, max)_
+  * steps to build 5 number summary:
+    * sort data in ascending order
+    * calculate min, max, median
+    * Q_1 = median of lower subset (exclusively below median)
+    * Q_3 = median of upper subset (exclusively above median)
+    * calculating with python:
+      ```python
+      # Option 1: Use functions from scipy, numpy (percentile)
+      from numpy import percentile
+      from numpy.random import rand# generate data sample
+      import scipy.stats
+      def five_number_summary(lst):
+          # Calculate quartiles (Q1, Median, Q3)
+          q1, median_, q3 = percentile(data, [25, 50, 75])
+          # Calculate min/max
+          min_, max_ = data.min(), data.max()
+          return min_, q1, median_, q3, max_
   
 ## Other Notes
   * Bernoulli trials
