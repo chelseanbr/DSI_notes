@@ -117,6 +117,13 @@ https://docs.python.org/3/library/math.html
   * histograms
   * boxplots
   * distribution visualizations
+8. five number summary
+  1. The minumum
+  2. Q1 - the first quartile
+  3. The median
+  4. Q3 - the third quartile
+  5. The maximum
+  * notation: _(min, Q1, median, Q3, max)_
   
 ## Other Notes
   * Bernoulli trials
