@@ -133,8 +133,6 @@ https://docs.python.org/3/library/math.html
       ```python
       # Option 1: Use functions from scipy, numpy (percentile)
       from numpy import percentile
-      from numpy.random import rand# generate data sample
-      import scipy.stats
       def five_number_summary(lst):
           # Calculate quartiles (Q1, Median, Q3)
           q1, median_, q3 = percentile(data, [25, 50, 75])
