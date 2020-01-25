@@ -59,6 +59,7 @@ https://docs.python.org/3/library/math.html
     * population vs. sample
       * population - **all** of the possible data points or observations from a set of data
       * sample - does **not** represent every possible observation
+    * advantages: **preferable in large datasets with few (or symmetric) outliers**
     * calculating with python:
       ```python
       # Option 1: Create simple function
@@ -70,6 +71,7 @@ https://docs.python.org/3/library/math.html
       ```
   * **median** - middle value
     * notations: **med(A)** or **lower-case x _with tilde over top_**
+    * advantages: **more resistant to _extreme/non-symmetric_ outliers** _than mean_
     * calculating with python:
       ```python
       # Option 1: Simple function
@@ -92,6 +94,7 @@ https://docs.python.org/3/library/math.html
       ```    
   * **mode** - item with greatest frequency
     * notations: **mode(A)** or **Mo**
+    * advantages: **preferred with _categorical data_**
     * calculating with python:
       ```python
       # Option 1: scipy function
