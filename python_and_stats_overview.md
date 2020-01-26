@@ -3,6 +3,7 @@
   * [Data Structures](#Data-Structures)
   * [Built-in Functions](#Built-in-Functions)
   * [Python Math Module](#Python-Math-Module)
+  * [Other Useful Python Knowledge](#Other-Useful-Python-Knowledge)
 2. [Probability/Statistics](#ProbabilityStatistics)
 3. [Other Notes](#Other-Notes)
 
@@ -48,6 +49,19 @@ https://docs.python.org/3/library/functions.html
 
 ### Python Math Module
 https://docs.python.org/3/library/math.html
+
+### Other Useful Python Knowledge
+* splitting a string (like a word) into a list of chars
+  1. using list comprehension
+    ```python
+    def split(word): 
+        return [char for char in word]  
+    ```
+  2. typecasting into list
+    ```python
+    def split(word): 
+        return list(word)
+    ```
 
 ## Probability/Statistics
 
