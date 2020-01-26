@@ -144,7 +144,7 @@ https://docs.python.org/3/library/math.html
     * population: **σ^2** = 1/n * n∑i=1 (x_i−μ)^2
     * sample: **s^2** = 1/n−1 * n∑i=1 (x_i−x¯)^2
       * different from population variance due to Bessel's correction (https://en.wikipedia.org/wiki/Bessel%27s_correction)
-        * partially corrects bias with factor n / n-1
+      * bias partially corrected with factor n / n-1
   
 ## Other Notes
   * Bernoulli trials
