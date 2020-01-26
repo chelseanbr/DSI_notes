@@ -62,6 +62,7 @@ https://docs.python.org/3/library/math.html
     def split(word): 
         return list(word)
     ```
+* **be careful with floor division vs typecasting with int(), esp. for neg numbers with mod operations
 
 ## Probability/Statistics
 
