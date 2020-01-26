@@ -54,8 +54,8 @@ https://docs.python.org/3/library/math.html
 1. measures of central tendency
   * **mean** - average
     * μ - **population** mean
-    * "x-bar" - **sample** mean
-    * "x-bar" _capitalized_ - **sample** mean, _where X is a random variable_
+    * x¯ ("x-bar") - **sample** mean
+    * X¯ ("x-bar" _capitalized)_ - **sample** mean, _where X is a random variable_
     * population vs. sample
       * population - **all** of the possible data points or observations from a set of data
       * sample - does **not** represent every possible observation
@@ -135,10 +135,16 @@ https://docs.python.org/3/library/math.html
       from numpy import percentile
       def five_number_summary(lst):
           # Calculate quartiles (Q1, Median, Q3)
-          q1, median_, q3 = percentile(data, [25, 50, 75])
+          q1, median_, q3 = percentile(lst, [25, 50, 75])
           # Calculate min/max
           min_, max_ = data.min(), data.max()
           return min_, q1, median_, q3, max_
+9. variance and standard deviation 
+  * variance
+    * population: **σ^2** = 1/n * n∑i=1 (x_i−μ)^2
+    * sample: **s^2** = 1/n−1 * n∑i=1 (x_i−x¯)^2
+      * different from population due to Bessel's correction (https://en.wikipedia.org/wiki/Bessel%27s_correction)
+        * partially corrects bias with factor n / n-1
   
 ## Other Notes
   * Bernoulli trials
