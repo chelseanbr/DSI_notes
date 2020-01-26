@@ -115,6 +115,10 @@ https://docs.python.org/3/library/math.html
   * Poisson
 7. plots
   * histograms
+    * each bin is left inclusive, and right exclusive
+    * common function to calculate # of bins: k = sqrt(n), where n represents # of samples
+    * **right-skewed**: mean > mode, longer tail to the right
+    * **left-skewed**: mean < mode, longer tail to the left
   * boxplots
   * distribution visualizations
 8. five number summary
