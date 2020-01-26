@@ -117,9 +117,12 @@ https://docs.python.org/3/library/math.html
   * histograms
     * each bin is left inclusive, and right exclusive
     * common function to calculate # of bins: k = sqrt(n), where n represents # of samples
-    * **right-skewed**: mean > mode, _longer tail to the right_
-    * **left-skewed**: mean < mode, _longer tail to the left_
+    * **right-skewed**: mean > mode, _longer tail to the right_ (or "positive skewed")
+    * **left-skewed**: mean < mode, _longer tail to the left_ (or "negative skewed")
   * boxplots
+    * box represents IQR: interquartile range = Q_3 - Q_1
+      * center of distribution, middle 50% of values
+    * outliers: values below Q1 – 1.5×IQR or above Q3 + 1.5×IQR
   * distribution visualizations
 8. five number summary
   * The minumum
