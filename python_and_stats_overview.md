@@ -117,8 +117,10 @@ https://docs.python.org/3/library/math.html
   * histograms
     * each bin is left inclusive, and right exclusive
     * common function to calculate # of bins: k = sqrt(n), where n represents # of samples
-    * **right-skewed**: mean > mode, longer tail to the right
-    * **left-skewed**: mean < mode, longer tail to the left
+    * **right-skewed**: mean > mode, _longer tail to the right_
+    * **left-skewed**: mean < mode, _longer tail to the left_
+  * scatter plots
+    *
   * boxplots
   * distribution visualizations
 8. five number summary
