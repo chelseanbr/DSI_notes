@@ -119,8 +119,6 @@ https://docs.python.org/3/library/math.html
     * common function to calculate # of bins: k = sqrt(n), where n represents # of samples
     * **right-skewed**: mean > mode, _longer tail to the right_
     * **left-skewed**: mean < mode, _longer tail to the left_
-  * scatter plots
-    *
   * boxplots
   * distribution visualizations
 8. five number summary
