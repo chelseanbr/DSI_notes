@@ -157,6 +157,8 @@ https://docs.python.org/3/library/math.html
       np.std(lst)
       # Will return the standard deviation of the dataset w/ Bessel's correction
       np.std(lst, ddof=1)
+      ```
+      ddof: delta degrees of freedom
 
 ## Other Notes
   * Bernoulli trials
