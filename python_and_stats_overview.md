@@ -145,7 +145,19 @@ https://docs.python.org/3/library/math.html
     * sample: **s^2** = 1/n−1 * n∑i=1 (x_i−x¯)^2
       * different from population variance due to Bessel's correction (https://en.wikipedia.org/wiki/Bessel%27s_correction)
       * bias partially corrected with factor n / n-1
-  
+  * standard deviation = sqaure root of variance
+    * calculating with python:
+      ```python
+      import numpy as np
+      # Will return the variance of the numeric dataset w/o Bessel's correction
+      np.var(lst)
+      # Will return the variance of the numeric dataset w/ Bessel's correction
+      np.var(lst, ddof=1)
+      # Will return the standard deviation of the dataset w/o Bessel's correction
+      np.std(lst)
+      # Will return the standard deviation of the dataset w/ Bessel's correction
+      np.std(lst, ddof=1)
+
 ## Other Notes
   * Bernoulli trials
   * sigmoid function
