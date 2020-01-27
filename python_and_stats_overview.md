@@ -63,6 +63,22 @@ https://docs.python.org/3/library/math.html
         return list(word)
     ```
 * **be careful with floor division vs typecasting with int(), esp. for neg numbers with mod operations
+* string formatting
+  ```python
+  # Option 1: Format method
+  'Inserting {} into this string'.format(variable_to_insert)
+  
+  x = 1
+  y = 3
+  new_string = 'The result of {} divided by {} is {:.3f}'.format(x, y, x/y) # {:.3f} rounds float to 3rd decimal
+  print(new_string)
+  
+  # Option 2: f strings
+  x = 1
+  y = 3
+  new_string = f'The result of {x} divided by {y} is {x/y:.2f}'
+  print(new_string)
+  ```
 
 ## Probability/Statistics
 
