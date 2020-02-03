@@ -26,9 +26,9 @@ https://docs.python.org/3/library/functions.html
 
 1. abs(x)
   * return abs val of int or floating pt num x; if complex, returns magnitude 
-2. bool()
+2. _bool()_
   * class. Boolean val True or False
-3. chr()
+3. _chr()_
   * return string representing char, for example chr(97) returns 'a'
     * valid for i = 0 through 1,114,111 (0x10FFFF in base 16)
 4. dict()
@@ -36,26 +36,41 @@ https://docs.python.org/3/library/functions.html
 5. **enumerate**(iterable, start=0)
   * return enumerate obj given an iterable, for example, given a list, a list of tuples with counts will be returned
   ```python
-  seasons = ['Spring', 'Summer', 'Fall', 'Winter']
-  list(enumerate(seasons))
+  >>> seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+  >>> list(enumerate(seasons))
   [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
-  list(enumerate(seasons, start=1))
+  >>> list(enumerate(seasons, start=1))
   [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
   ```
-6. float()
+6. _float()_
+  * class. 
+7. _input()_
+  * 
+8. _int()_
   *
-7. input()
-8. int()
 9. len()
 10. list() 
 11. max()
 12. min()
 13. ord()
 14. print() 
-15. range()
-16. round()
-17. set()
-18. sorted()
+15. **range(stop / start, stop[, step])**
+```python
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(0, -10, -1))
+[0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
+ ```
+16. **round(number[, ndigits])**
+  * return num rounded to ndigits precision, unless if no ndigits, returns closest int
+17. **set()**
+  * returns a new set where there are no duplicate items
+18. **sorted(iterable, *, key=None, reverse=False)
+  * returns the iterable sorted, alternative to list.sort(), which returns None and is slightly more efficient
+  ```python
+  >>> sorted([5, 2, 3, 1, 4])
+  [1, 2, 3, 4, 5]
+  ```
 19. str()
 20. sum()
 21. tuple()
