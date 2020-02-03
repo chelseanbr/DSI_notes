@@ -24,12 +24,26 @@ https://docs.python.org/3/tutorial/datastructures.html
 
 https://docs.python.org/3/library/functions.html
 
-1. abs()
+1. abs(x)
+  * return abs val of int or floating pt num x; if complex, returns magnitude 
 2. bool()
+  * class. Boolean val True or False
 3. chr()
+  * return string representing char, for example chr(97) returns 'a'
+    * valid for i = 0 through 1,114,111 (0x10FFFF in base 16)
 4. dict()
-5. enumerate()
+  * create a new dictionary
+5. **enumerate**(iterable, start=0)
+  * return enumerate obj given an iterable, for example, given a list, a list of tuples with counts will be returned
+  ```python
+  seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+  list(enumerate(seasons))
+  [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
+  list(enumerate(seasons, start=1))
+  [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+  ```
 6. float()
+  *
 7. input()
 8. int()
 9. len()
