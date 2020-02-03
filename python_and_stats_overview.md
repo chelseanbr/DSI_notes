@@ -197,6 +197,11 @@ https://docs.python.org/3/library/math.html
       np.std(lst, ddof=1)
       ```
       * ddof: delta degrees of freedom
+10. logistic regression
+  * false-positive
+  * true-positive
+  * false-negative
+  * false-positive
 
 ## Other Notes
   * Bernoulli trials
