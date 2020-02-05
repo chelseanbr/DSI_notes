@@ -168,8 +168,8 @@ https://docs.python.org/3/library/math.html
   * combinations
   * permutations
 5. conditional probability
-  * law of total probability 
-  * Bayes theorem
+  * **law of total probability** 
+  * **Bayes theorem**
 6. distributions
   * Binomial
   * Poisson
