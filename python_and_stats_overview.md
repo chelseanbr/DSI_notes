@@ -235,6 +235,16 @@ https://docs.python.org/3/library/math.html
 ## Other Notes
   * Bernoulli trials
   * sigmoid function
+  
+**2-Feb (Tues)**
+  * Factorial (n!)
+  ```python
+  fact = 1
+  for i in range(n):
+      fact *= n - i
+  ```
+  * Binomial Distributions
+  https://www.hackerrank.com/challenges/s10-binomial-distribution-1/tutorial
 
 [Top of Page](#Python--Stats-Overview)
 
