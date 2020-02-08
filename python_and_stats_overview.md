@@ -170,6 +170,9 @@ https://docs.python.org/3/library/math.html
 5. conditional probability
   * **law of total probability** 
   * **Bayes theorem**
+  * testing for independence
+  * Kolmogorov's definition of conditional probability
+    * probability that both events A and B occur
 6. distributions
   * Binomial
   * Poisson
