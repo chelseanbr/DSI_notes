@@ -53,3 +53,6 @@
 
   
 
+## **TODO**
+Register for AWS credit
+Send Account ID + email to Hamid for AWS
