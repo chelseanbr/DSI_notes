@@ -51,7 +51,13 @@
 * top : all processes running on machine
 * killall : kill certain processes
 
-  
+# Git
+git clone
+git checkout -b pair
+git status
+git add
+git commit -m "*(message)*"
+git push
 
 ## **TODO**
 Register for AWS credit
