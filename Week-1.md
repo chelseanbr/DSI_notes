@@ -33,8 +33,17 @@
   * > write to new file
   * >> 
 * sort
+  * sort contents of file
+* echo >> : add lines if you don't want to go inside file
+* uniq
+* man : print instructions for all commands
   
-  
+### Permissions String
+[drwx][rwx][rwx]
+[user][grp][others]
+* chmod 
+ * 755 : user rwx, grp & others r-x
+ * 400 : root r--, grp & others no permission
   
 
   
