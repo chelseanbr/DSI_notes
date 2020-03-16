@@ -53,11 +53,25 @@
 
 # Git
 git clone
-git checkout -b pair
+
+## Partner A
+git checkout -b *(branch)*
 git status
 git add
 git commit -m "*(message)*"
-git push
+git push -u origin *(branch)*
+* -u : upstream for the 1st time you push to new branch 
+
+## Partner B
+git remote add *(partner's name)* *(github clone link)*
+git fetch *(partner's name)*
+git status
+git checkout --track file
+git pull file
+git push 
+
+## Partner A
+git merge -m "*(message)*"
 
 ## **TODO**
 Register for AWS credit
