@@ -1,6 +1,7 @@
 # Mon, 3/16
 ## Unix
 
+<list>
 pwd : print working directory
 ls : list all files/folders
 ls -l : list with more details, permissions
@@ -14,3 +15,4 @@ less : show what's in a file, but page-by-page
 head : show top of file 
 tail : show bottom of file
 vi : 
+<list>
