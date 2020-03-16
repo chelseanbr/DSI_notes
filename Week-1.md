@@ -44,7 +44,12 @@
 * chmod 
  * 755 : user rwx, grp & others r-x
  * 400 : root r--, grp & others no permission
-  
+ * -R to change for all files in folder
+
+* ps : processes
+* jobs :
+* top : all processes running on machine
+* killall : kill certain processes
 
   
 
