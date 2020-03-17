@@ -1,4 +1,6 @@
-# Mon, 3/16
+[Mon, 3/16] Mon-3/16
+
+# Mon-3/16
 ## Unix
 
 * pwd : print working directory
@@ -51,10 +53,10 @@
 * top : all processes running on machine
 * killall : kill certain processes
 
-# Git
+## Git
 git clone
 
-## Partner A
+### Partner A
 git checkout -b *(branch)*
 git status
 git add
@@ -62,7 +64,7 @@ git commit -m "*(message)*"
 git push -u origin *(branch)*
 * -u : upstream for the 1st time you push to new branch 
 
-## Partner B
+### Partner B
 git remote add *(partner's name)* *(github clone link)*
 git fetch *(partner's name)*
 git status
@@ -70,14 +72,14 @@ git checkout --track file
 git pull file
 git push 
 
-## Partner A
+### Partner A
 git merge -m "*(message)*"
 
 ## **TODO**
 Register for AWS credit
 Send Account ID + email to Hamid for AWS
 
-# Tue, 3/117
+# Tue-3/17
 ## Warmup
 Given an unsorted list of some elements(may or may not be integers), Find the frequency of each distinct element in the list using a dictionary.
 Example:
