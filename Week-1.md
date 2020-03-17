@@ -137,3 +137,16 @@ for num in list(result):
 * np.argmax-returns flattened index vs np.max-returns max value
 * can specify to look at only rows with axis=0, only cols with axis=1
 
+## Linear Algebra
+### Vectors
+* norm - length of vector (pythagorean theorem)
+ * np.linalg.norm()
+* dot product
+ * multiply element-by-element, then sum all products
+ * cos angle = dot(x, y) / (x_norm * y_norm)
+  * 0 angle, dot product 1
+  * orthogonal, dot product 0
+### Matrices
+* np.linalg.solve()
+* can use @ for matrix multiplication
+* 
