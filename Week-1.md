@@ -115,16 +115,19 @@ for num in list(result):
  * np.full
  * np.linspace
   * Good for plotting
- * np. arrange
+ * np.arange
   * Like range()
 #### Arrays from Distributions
 * np.random.uniform
 * np.random.normal
-### Broadcasting
-* Apply arithmetic operations element by element with array(s)
-* @ ?
+#### Broadcasting
+* Apply arithmetic operations element by element on array(s, with matching 1 dimension)
+* @ for matrix multiplication
 * Can do with comparison operators (return boolean array)
-
-
- 
+* np.mean() same as mean(), but expects np array
+#### Array Indexing
+##### Fancy Indexing
+* can index array with another array or list
+##### Boolean Indexing
+* np array x, x\[\[bool_list]]
 
