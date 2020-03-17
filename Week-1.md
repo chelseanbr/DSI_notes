@@ -107,3 +107,20 @@ for num in list(result):
 ```
 
 ## Lecture: Numpy
+### Arrays
+* .copy() array to avoid modifying original
+* Creating numpy arrays
+ * np.zeros, np.ones
+ * np.full
+ * np.linspace
+  * Good for plotting
+ * np. arrange
+  * Like range()
+#### Arrays from Distributions
+* np.random.uniform
+* np.random.normal
+### Broadcasting
+* Apply arithmetic operations element by element to an array
+
+ 
+
