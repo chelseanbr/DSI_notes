@@ -1,6 +1,6 @@
-[Mon, 3/16] Mon-3/16
+* [Mon-3/16](/Mon-3.16)
 
-# Mon-3/16
+# Mon-3.16
 ## Unix
 
 * pwd : print working directory
@@ -79,7 +79,7 @@ git merge -m "*(message)*"
 Register for AWS credit
 Send Account ID + email to Hamid for AWS
 
-# Tue-3/17
+# Tue-3.17
 ## Warmup
 Given an unsorted list of some elements(may or may not be integers), Find the frequency of each distinct element in the list using a dictionary.
 Example:
