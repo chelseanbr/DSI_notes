@@ -108,6 +108,7 @@ for num in list(result):
 
 ## Lecture: Numpy
 ### Arrays
+* **Different from lists: must have fixed size with same datatype throughout**
 * .copy() array to avoid modifying original
 * Creating numpy arrays
  * np.zeros, np.ones
@@ -120,7 +121,10 @@ for num in list(result):
 * np.random.uniform
 * np.random.normal
 ### Broadcasting
-* Apply arithmetic operations element by element to an array
+* Apply arithmetic operations element by element with array(s)
+* @ ?
+* Can do with comparison operators (return boolean array)
+
 
  
 
