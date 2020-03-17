@@ -83,7 +83,8 @@ Send Account ID + email to Hamid for AWS
 # Tue-3.17
 ## Warmup
 ```
-Given an unsorted list of some elements(may or may not be integers), Find the frequency of each distinct element in the list using a dictionary.
+Given an unsorted list of some elements(may or may not be integers), 
+Find the frequency of each distinct element in the list using a dictionary.
 Example:
 Input : [1, 1, 1, 5, 5, 3, 1, 3, 3, 1,
                   4, 4, 4, 2, 2, 2, 2]
@@ -132,4 +133,7 @@ for num in list(result):
 * can index array with another array or list
 ##### Boolean Indexing
 * np array x, x\[\[bool_list]]
+##### Methods & Axies
+* np.argmax-returns flattened index vs np.max-returns max value
+* can specify to look at only rows with axis=0, only cols with axis=1
 
