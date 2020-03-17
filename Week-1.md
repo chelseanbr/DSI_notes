@@ -1,4 +1,5 @@
-* [Mon-3/16](/Mon-3.16)
+* [Mon-3.16](/Mon-3.16)
+* [Tue-3.17](/Tue-3.17)
 
 # Mon-3.16
 ## Unix
@@ -104,3 +105,5 @@ for num in sorted(lst):
 for num in list(result):
   print(f'{num} : {result[num]}')
 ```
+
+## Lecture: Numpy
