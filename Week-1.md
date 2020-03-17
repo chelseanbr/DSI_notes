@@ -82,6 +82,7 @@ Send Account ID + email to Hamid for AWS
 
 # Tue-3.17
 ## Warmup
+```
 Given an unsorted list of some elements(may or may not be integers), Find the frequency of each distinct element in the list using a dictionary.
 Example:
 Input : [1, 1, 1, 5, 5, 3, 1, 3, 3, 1,
@@ -93,6 +94,7 @@ Output : 1 : 5
          5 : 2
 Explanation : Here 1 occurs 5 times, 2 
               occurs 4 times and so on...
+```
 ```python
 # My Answer
 lst = [1, 1, 1, 5, 5, 3, 1, 3, 3, 1,
